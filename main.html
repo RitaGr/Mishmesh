@@ -7,6 +7,74 @@
     <title>Document</title>
 </head>
 <body>
+    <img src="images/mishmesh.png" alt="Mishmesh logo">
+    <!--menu-->
+    <div class="--menu--">
+        <a class="active" href="#home">Main</a>
+        <a href="#news">Messages</a>
+        <a href="#contact">Profile</a>
+    </div>
+
+    <div class="shifttable">
+      <table>
+        <tr>
+            <th>Day/Content</th>
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr>
+            <th>Time</th>
+
+        </tr>
+        <tr>
+            <th>Terminal</th>
+
+        </tr>
+        <tr>
+            <th>Department</th>
+        </tr>
+      </table>
+    </div>
+    <button type="button">Edit Shift</button><br>
     
+    <div>
+      <label for="time-input">Enter a time in 24-hour format:</label>
+      <input type="time" id="time-input" step="3600"><br>
+      <label for="date">Choose Date</label>
+      <input type="date" id="day-input"><br>
+
+      <label for="depratments">Choose Department</label>
+        <select name="departments" id="departments">
+            <option value="volvo">1</option>
+            <option value="saab">2</option>
+            <option value="opel">3</option>
+            <option value="audi">4</option>
+        </select><br>
+        <label for="terminals">Choose Terminal</label>
+        <select name="terminals" id="terminals">
+            <option value="volvo">1</option>
+            <option value="saab">2</option>
+            <option value="opel">3</option>
+            <option value="audi">4</option>
+        </select><br>
+        <label for="states">Choose state</label>
+        <select name="states" id="states">
+            <option value="volvo">Exchange shift</option>
+            <option value="saab">Give away shift</option>
+        </select><br>
+    </div>
+    <button type="submit">Filter</button>
+
+    <div>
+        <h1>Results</h1>
+        
+    </div>
+
+
 </body>
 </html>
